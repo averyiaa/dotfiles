@@ -7,13 +7,6 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-
-# brightness control
-alias xb1='xrandr --output eDP-1 --brightness 1'
-alias xb2='xrandr --output eDP-1 --brightness 1.3'
-alias xb3='xrandr --output eDP-1 --brightness 1.5'
-alias xb4='xrandr --output eDP-1 --brightness 1.7'
-
 alias c='clear'
 
 #PS1='[\u@\h \W]\$ '
