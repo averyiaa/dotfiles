@@ -54,7 +54,7 @@ window:
   title: alacritty
   opacity: 0.9
   dimensions:
-    columns: 75
+    columns: 74
     lines: 21
   decorations: none
 
