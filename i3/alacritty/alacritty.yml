@@ -55,7 +55,7 @@ window:
   opacity: 0.9
   dimensions:
     columns: 75
-    lines: 22
+    lines: 21
   decorations: none
 
 scrolling:
