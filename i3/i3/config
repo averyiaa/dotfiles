@@ -64,6 +64,9 @@ bindsym $mod+Shift+S exec "rofi -modi drun,run -show drun"
 
 bindsym $mod+Shift+p exec "bash /home/karl/.config/rofi/powermenu
 
+# file manager
+bindsym $mod+Shift+f exec pcmanfm
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
