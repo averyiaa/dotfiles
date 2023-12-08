@@ -55,15 +55,15 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-#bindsym $mod+d exec --no-startup-id dmenu_run -h 25
+bindsym $mod+Shift+d exec --no-startup-id dmenu_run -h 25
 
-# A more modern dmenu replacement is rofi:
-bindsym $mod+Shift+S exec "rofi -modi drun,run -show drun"
+# start rofi:
+#bindsym $mod+Shift+s exec "rofi -modi drun,run -show drun"
 
-# There also is i3-dmenu-desktop which only displays applications shipping a
-# .desktop file. It is a wrapper around dmenu, so you need that installed.
-bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu='dmenu -i -h 25'
+# start dmenu-desktop
+bindsym $mod+Shift+s exec --no-startup-id i3-dmenu-desktop --dmenu='dmenu -i -h 25'
 
+# start powermenu
 bindsym $mod+Shift+p exec "bash /home/karl/.config/rofi/powermenu
 
 # file manager
@@ -204,6 +204,8 @@ smart_gaps on
 
 # no borders
 default_border pixel 0
+
+#smart_borders off
 
 exec_always nitrogen --restore
 exec --no-startup-id picom -b
