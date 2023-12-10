@@ -10,6 +10,8 @@ alias grep='grep --color=auto'
 
 alias c='clear'
 
+alias scrot='scrot ~/Pictures/screenshots/%b%d::%H%M%S.png'
+
 #PS1='[\u@\h \W]\$ '
 
 PS1='[\[\033[1;36m\]\u\[\033[1;36m\]@\[\033[1;36m\]\h\[\033[0;37m\]\w]\[\033[0;37m\]\[\033[0m\] '
