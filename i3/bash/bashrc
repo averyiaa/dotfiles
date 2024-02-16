@@ -1,4 +1,3 @@
-
 # ~/.bashrc
 #
 
@@ -24,9 +23,11 @@ alias c='clear'
 alias media1='cd /mnt/hdd/Media'
 alias media2='cd /mnt/ssd'
 alias rsync-pi='rsync -av ~/Documents/dotfiles/* karl@192.168.1.125:/mnt/hdd/arch.bak/'
-
-#
+alias hbd='ssh averyia@28.ein.itsby.design'
 alias scrot='scrot ~/Pictures/screenshots/%b%d::%H%M%S.png'
+alias mullvad-c='mullvad connect'
+alias mullvad2='sudo nft -f ~/.config/excludeTraffic.rules'
+alias nft-exclude='sudo nft -f excludeTraffic.rules'
 
 # ls colors
 LS_COLORS=$LS_COLORS:'di=34:' ; export LS_COLORS
