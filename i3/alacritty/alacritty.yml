@@ -1,5 +1,5 @@
-import:
-  - ~/Downloads/git/alacritty/dracula-toml
+#import:
+#  - ~/Downloads/git/alacritty/dracula-toml
 colors:
   # Default colors
   primary:
@@ -29,11 +29,6 @@ colors:
     white: '#FFFFFF'
 theme: Ayu-Dark
 
-window:
-  padding:
-    x: 5
-    y: 5
-
 font:
   normal:
     family: JetBrains Mono Nerd Font
@@ -55,7 +50,7 @@ window:
   opacity: 0.9
   dimensions:
     columns: 74
-    lines: 21
+    lines: 22
   decorations: none
 
 scrolling:
