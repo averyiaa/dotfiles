@@ -77,9 +77,9 @@ multiplier = 3
 
 [window]
 decorations = "none"
-opacity = 0.9
+opacity = 0.8
 title = "alacritty"
 
 [window.dimensions]
 columns = 74
-lines = 22
+lines = 21
