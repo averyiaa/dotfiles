@@ -1,0 +1,32 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+alias ll='ls -l'
+alias grep='grep --color=auto'
+alias c='clear'
+alias py='python3'
+alias scrot='scrot ~/Pictures/screenshots/%b%d::%H%M%S.png'
+alias uni='sudo mount -t nfs 192.168.1.90:/volume1/university /mnt/university'
+alias b+='brightnessctl set +10'
+alias b-='brightnessctl set 10-'
+
+#PS1='[\u@\h \W]\$ '
+
+# brackets
+#PS1='[\[\033[1;36m\]\u\[\033[1;36m\]@\[\033[1;36m\]\h:\[\033[0;37m\]\w]\[\033[0;37m\]\[\033[0m\] '
+
+# white
+PS1='\[\e[38;5;254;1m\]\u\[\e[0m\] \[\e[38;5;254m\][\w]\[\e[0m\] \[\e[38;5;254m\]>\[\e[0m\] '
+
+LS_COLORS=$LS_COLORS:'di=1;36:' ; export LS_COLORS
+LS_COLORS+=':ow=1;36'
+
+export TERM=vt100
+export TERM=xterm-color
+
+neofetch
