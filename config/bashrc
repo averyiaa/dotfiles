@@ -24,6 +24,7 @@ force_color_prompt=yes
 
 # custom alias
 alias c='clear'
+alias ll='ls -l'
 alias hbd='ssh averyia@28.ein.itsby.design'
 alias scrot='scrot ~/Pictures/screenshots/%b%d::%H%M%S.png'
 alias mullvad2='sudo nft -f ~/.config/excludeTraffic.rules'
