@@ -25,16 +25,26 @@ force_color_prompt=yes
 # custom alias
 alias c='clear'
 alias ll='ls -l'
-alias hbd='ssh averyia@28.ein.itsby.design'
+alias py='python3'
+alias pacsyu='sudo pacman -Syu'
+alias yaysyu='yay -Syu'
+alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 alias scrot='scrot ~/Pictures/screenshots/%b%d::%H%M%S.png'
-alias mullvad2='sudo nft -f ~/.config/excludeTraffic.rules'
-alias elements='sudo mount -t ntfs /dev/sdd1 /mnt/elements/'
+
+# mount
 alias syn='sudo mount -t nfs 192.168.1.90:/volume1/media /mnt/synology'
 alias uni='sudo mount -t nfs 192.168.1.90:/volume1/university /mnt/university'
+alias elements='sudo mount -t ntfs /dev/sdd1 /mnt/elements/'
+
+# ssh devices
 alias kobo='ssh root@192.168.1.217'
 alias serv-1='ssh karl@192.168.1.100'
 alias serv-2='ssh root@192.168.1.200'
-alias py='python3'
+
+# navigation
+alias go-videos='cd /mnt/hdd/other/videos'
+alias cs='cd /mnt/synology'
+alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 
 # ls colors
 LS_COLORS=$LS_COLORS:'di=1;36:' ; export LS_COLORS
