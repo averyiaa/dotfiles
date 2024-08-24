@@ -33,7 +33,7 @@ alias serv-1='ssh karl@192.168.1.100'
 alias serv-2='ssh root@192.168.1.200'
 
 # navigation
-alias go-videos='cd /mnt/hdd/other/videos'
+alias vs='cd /mnt/hdd/other/videos'
 alias cs='cd /mnt/synology'
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 
