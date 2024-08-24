@@ -8,16 +8,6 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
-# default
-#PS1='[\u@\h \W]\$ '
-
-# no brackets
-#PS1='\[\033[1;36m\]\u\[\033[1;36m\]@\[\033[1;36m\]\h:\[\033[0;37m\]\w\[\033[0;37m\]\$\[\033[0m\] '
-
-# brackets
-#PS1='[\[\033[1;37m\]\u\[\033[1;37m\]@\[\033[1;37m\]\h:\[\033[0;37m\]\w]\[\033[0;37m\]\[\033[0m\] '
-
-# white
 PS1='\[\e[38;5;254;1m\]\u\[\e[0m\] \[\e[38;5;254m\][\w]\[\e[0m\] \[\e[38;5;254m\]>\[\e[0m\] '
 
 force_color_prompt=yes
