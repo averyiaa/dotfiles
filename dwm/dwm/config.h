@@ -20,6 +20,11 @@ static const char *colors[][3]      = {
 	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
 };
 
+/* amixer volume control */
+static const char *upvol[]      = { "/usr/bin/amixer",  "set", "Master", "5%+", NULL };
+static const char *downvol[]    = { "/usr/bin/amixer",  "set", "Master", "5%-", NULL };
+static const char *mutevol[]    = { "/usr/bin/amixer", "set", "Master", "toggle", NULL };
+
 /* tagging */
 static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
 
@@ -105,6 +110,9 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
+        { MODKEY|ControlMask,           XK_plus, spawn, {.v = upvol   } },
+        { MODKEY|ControlMask,           XK_minus, spawn, {.v = downvol } },
+        { MODKEY|ControlMask,           XK_m, spawn, {.v = mutevol } },
 };
 
 /* button definitions */
