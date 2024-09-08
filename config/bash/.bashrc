@@ -25,7 +25,6 @@ alias scrot='scrot ~/Pictures/screenshots/%b%d::%H%M%S.png'
 # mount
 alias syn='sudo mount -t nfs 192.168.1.90:/volume1/media /mnt/synology'
 alias uni='sudo mount -t nfs 192.168.1.90:/volume1/university /mnt/university'
-alias elements='sudo mount -t ntfs /dev/sdd1 /mnt/elements/'
 
 # ssh devices
 alias kobo='ssh root@192.168.1.217'
